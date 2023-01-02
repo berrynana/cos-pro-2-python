@@ -47,7 +47,7 @@ max_product_number = 10
 def func_a(gloves):
     counter = [0 for _ in range(max_product_number + 1)]
     for x in gloves:
-        @@@
+        counter[x] += 1
     return counter
 
 def solution(left_gloves, right_gloves):
