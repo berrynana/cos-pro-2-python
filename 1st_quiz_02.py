@@ -43,8 +43,16 @@
 #import math
 
 def solution(price, grade):
-    #Write code here.
-    answer = 0
+    discount_rate = 0
+    
+    if grade == "S":
+        discount_rate = 0.95
+    elif grade == "G":
+        discount_rate = 0.9
+    elif grade == "V":
+        discount_rate = 0.85
+    
+    answer = int(price * discount_rate)
     return answer
 
 #The following is code to output testcase.
