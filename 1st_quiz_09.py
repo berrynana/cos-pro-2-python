@@ -14,7 +14,7 @@
 #---
 
 #####return 값 설명
-characters에서 연속하는 중복 문자를 제거한 문자열을 return 해주세요.
+#characters에서 연속하는 중복 문자를 제거한 문자열을 return 해주세요.
 
 #---
 
