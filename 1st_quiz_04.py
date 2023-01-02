@@ -64,9 +64,9 @@ def func_c(arr):
     return ret
 
 def solution(arr):
-    counter = func_@@@(@@@)
-    max_cnt = func_@@@(@@@)
-    min_cnt = func_@@@(@@@)
+    counter = func_a(arr)
+    max_cnt = func_b(counter)
+    min_cnt = func_c(counter)
     return max_cnt // min_cnt
 
 #The following is code to output testcase.
