@@ -60,9 +60,9 @@ def func_c(arr):
     return count
 
 def solution(arr):
-    count_three = func_@@@(@@@)
-    count_five = func_@@@(@@@)
-    answer = func_@@@(@@@)
+    count_three = func_c(arr)
+    count_five = func_a(arr)
+    answer = func_b(count_three, count_five)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
