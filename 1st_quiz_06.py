@@ -39,7 +39,7 @@ def solution(number):
         current = i
         temp = count
         while current != 0:
-            if @@@:
+            if current % 10 == 3 or current % 10 == 6 or current % 10 == 9:
                 count += 1
                 print("pair", end = '')
             current = current // 10
