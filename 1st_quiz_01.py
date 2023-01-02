@@ -35,7 +35,20 @@
 
 def solution(shirt_size):
     #Write code here.
-    answer = []
+    answer = [0 for _ in range(6)]
+    for s in shirt_size:
+        if s == "XS":
+            answer[0] += 1
+        if s == "S":
+            answer[1] += 1
+        if s == "M":
+            answer[2] += 1
+        if s == "L":
+            answer[3] += 1
+        if s == "XL":
+            answer[4] += 1
+        if s == "XXL":
+            answer[4] += 1
     return answer
 
 #The following is code to output testcase.
