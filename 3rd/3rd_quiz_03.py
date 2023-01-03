@@ -33,8 +33,16 @@
 #import math
 
 def solution(scores):
-    #여기에 코드를 작성해주세요.
     answer = 0
+    
+    max_score = max(scores)
+    min_score = min(scores)
+    
+    scores.remove(max_score)
+    scores.remove(min_score)
+    
+    answer = int(sum(scores) / len(scores))
+    
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
