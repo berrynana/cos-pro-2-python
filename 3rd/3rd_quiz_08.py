@@ -39,7 +39,7 @@ def solution(programs):
             used_tv[i] = used_tv[i] + 1
     
     for i in used_tv:
-        if i >= 1:
+        if i >= 2:
             answer = answer + 1
     return answer
 
