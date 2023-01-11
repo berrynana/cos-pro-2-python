@@ -46,7 +46,7 @@ def func_a(month, day):
     for i in range(month - 1):
         total += month_list[i]
     total += day
-    return total - 1
+    return total - 1 ## other answer: total = sum(month_list[month -1]) + day - 1
         
 def solution(start_month, start_day, end_month, end_day):
     start_total = func_a(start_month, start_day)
