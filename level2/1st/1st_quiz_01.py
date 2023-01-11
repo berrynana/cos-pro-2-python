@@ -30,6 +30,23 @@
 #따라서 순서대로 [1, 2, 0, 2, 1, 0]을 리스트에 담아 return 하면 됩니다.
 
 
+## answer 1
+#answer = [0] * 6
+#XS -> answer[0] += 1
+#S -> answer[1] += 1
+#L -> answer[3] += 1
+#XL -> answer[4] += 1
+#S -> answer[1] += 1
+
+
+## answer 2
+#dict = [ "XS":0, "S":1, "M":2, "L":3, "XL":4, "XXL":5 ]
+#answer = [0] * 6
+#for item in shirt_size:
+#    i = dict[item]
+#    answer[i] += 1
+
+
 #You may use import as below.
 #import math
 
