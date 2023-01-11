@@ -42,6 +42,12 @@
 #You may use import as below.
 #import math
 
+# using dictionary
+#dict = [ S": 0.95, "G": 0.9, "V": 0.85 ]
+#discount_rate = dict[grade]
+#answer = int(price * discount_rate)
+        
+
 def solution(price, grade):
     discount_rate = 0
     
